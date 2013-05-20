@@ -501,6 +501,34 @@ var xeit = (function () {
                     support: true,
                     hint: '주민등록번호 뒤',
                     keylen: 7
+                },
+
+                'SHOW<cyberbill@ebill.show.co.kr>': {
+                    name: 'SHOW',
+                    support: true,
+                    hint: '주민등록번호 뒤',
+                    keylen: 7
+                },
+
+                'KT<cyberbill@ebill.show.co.kr>': {
+                    name: 'KT',
+                    support: true,
+                    hint: '주민등록번호 뒤',
+                    keylen: 7
+                },
+
+                'kt<cyberbill@ebill.mobile.olleh.com>': {
+                    name: 'kt',
+                    support: true,
+                    hint: '주민등록번호 뒤',
+                    keylen: 7
+                },
+
+                '헬로모바일고객행복센터<hellomobile@mvno.mobile.olleh.com>': {
+                    name: '헬로모바일',
+                    support: true,
+                    hint: '주민등록번호 뒤',
+                    keylen: 7
                 }
             }[S.Sender] || ((S.Sender) ? $.extend({}, this.sender, { name: S.Sender, hint: S.ContentEncryptionAlgorithm })
                                          : this.sender);
